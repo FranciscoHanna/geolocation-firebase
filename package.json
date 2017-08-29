@@ -1,0 +1,19 @@
+{
+  "name": "geolocation-firebase",
+  "version": "1.0.0",
+  "description": "HTML5 geolocation and Firebase Database storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Francisco Hanna",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.3.0",
+    "socket.io": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranciscoHanna/geolocation-firebase"
+  }
+}

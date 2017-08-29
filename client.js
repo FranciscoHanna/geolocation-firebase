@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('https://nameless-lake-37951.herokuapp.com/');
 
 // Receive database updates
 socket.on('data-update', function (data) {

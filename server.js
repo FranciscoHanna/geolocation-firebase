@@ -88,8 +88,8 @@ function handler (request, response) {
 	});
 }
 
-app.listen(process.env.PORT || 3000);
-console.log('Server running at http://localhost:3000/');
+app.listen(5000);
+console.log('Server running at https://nameless-lake-37951.herokuapp.com/');
 
 // Set socket event listeners on connection
 io.on('connection', function (socket) {
